@@ -63,4 +63,3 @@ def singup():
             login_user(new_user, remember=True)
             return redirect(url_for('views.home'))
     return render_template("signup.html", user=current_user)
-
